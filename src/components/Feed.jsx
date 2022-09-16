@@ -14,10 +14,10 @@ const Feed = () => {
 	
 	return (
 		<Stack
-			sx={{ flexDirection: { sx: 'colum', md: 'row' } }}>
+			sx={{ flexDirection: { sx: 'colum', md: 'row' } }}> 
 			<Box
 				sx={{
-					height: { sx:'auto', md:'92vh' },
+					height: { sx:'auto', md:'100%' },
 					borderRight: '1px solid #3d3d3d',
 					px: { sx: 0, md: 2 } 
 					}}>

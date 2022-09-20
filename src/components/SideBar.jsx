@@ -1,9 +1,10 @@
-import { Stack } from '@mui/material';
-
+import React from 'react';
+import { Stack, Hidden } from '@mui/material';
 import { categories } from '../utils/constants'
 
 
 const SideBar = ({ selectedCategory, setSelectedCategory }) =>  (
+    <Hidden mdDown>
     <Stack 
         direction='row'
         sx={{
@@ -32,6 +33,7 @@ const SideBar = ({ selectedCategory, setSelectedCategory }) =>  (
         </button>
     ))}
     </Stack>
+    </Hidden>
 )
 
 export default SideBar
